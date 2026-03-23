@@ -27,7 +27,7 @@ $inset: 1.75rem;
 }
 
 html {
-  font-size: 17px;
+  font-size: 14.5px;
 }
 
 body {
@@ -49,7 +49,7 @@ header {
 nav {
   max-width: $content-width;
   margin: 0 auto;
-  padding-left: calc(#{$sidebar-width} + #{$inset});
+  padding-left: calc(2rem + #{$sidebar-width} + #{$inset});
 }
 
 .nav-links {
@@ -89,7 +89,7 @@ main {
   width: $sidebar-width;
   flex-shrink: 0;
   padding-top: 0;
-  padding-right: $inset;
+  padding-right: 0.6rem;
 
   h3 {
     font-size: 0.72rem;
@@ -158,7 +158,7 @@ h2 {
   font-size: 1.35rem;
   font-weight: 700;
   color: $black;
-  margin-top: 2.25rem;
+  margin-top: 1.5rem;
   margin-bottom: 0.75rem;
   padding-bottom: 0.35rem;
   border-bottom: 1px solid $black;

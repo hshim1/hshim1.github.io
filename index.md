@@ -33,8 +33,8 @@ title: Hana Shim
 # Hana Shim
 
 <p class="education-brief">
-M.S. Biomedical Informatics (Bioinformatics), University of Chicago<br>
-B.S. Biology, University of Memphis
+<em>M.S. Biomedical Informatics, University of Chicago, 2021</em><br>
+<em>B.S. Biology, University of Memphis</em>
 </p>
 
 <div class="contact">
