@@ -93,6 +93,8 @@ main {
   width: 120px;
   flex-shrink: 0;
   padding-top: 6rem;
+  padding-right: 1.75rem;
+  border-right: 1.5px solid $black;
 
   h3 {
     font-size: 0.72rem;
