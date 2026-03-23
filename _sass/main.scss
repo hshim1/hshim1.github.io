@@ -49,15 +49,15 @@ header {
 nav {
   max-width: $content-width;
   margin: 0 auto;
-  padding-left: calc(2rem + #{$sidebar-width} + #{$inset});
 }
 
 .nav-links {
   display: flex;
+  justify-content: center;
   align-items: baseline;
 
   a {
-    margin-right: 1.75rem;
+    margin-right: 0;
     color: $text-light;
     text-decoration: none;
     font-size: 0.88rem;
