@@ -30,7 +30,7 @@ pipelines with Nextflow and Snakemake.
 - Reproducible workflows with Nextflow, Snakemake, and SLURM
 - NGS platforms: 10x Genomics, Illumina, Oxford Nanopore
 
-## Selected projects
+## Workflows
 
 <div class="project">
   <a href="https://github.com/hshim1/Bulk-RNAseq-visualization-workflow-ZRN01">
@@ -46,13 +46,6 @@ pipelines with Nextflow and Snakemake.
   </a>
   <p>Pipeline for extracting gene sets of interest and summarizing
   expression changes across conditions and timepoints.</p>
-</div>
-
-<div class="project">
-  <a href="https://zohebkhan1.github.io/Bulk-differentiation-scoring/">
-    Bulk differentiation scoring workflow
-  </a>
-  <p>Public demo showing bulk-expression scoring results.</p>
 </div>
 
 ## Education
