@@ -1,0 +1,21 @@
+title: Hana Shim
+description: >-
+  Bioinformatician at the University of Chicago.
+url: https://hshim1.github.io
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules

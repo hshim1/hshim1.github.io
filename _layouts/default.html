@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      {% if page.title and page.title != site.title %}{{ page.title }} - {{
+      site.title }}{% else %}{{ site.title }}{% endif %}
+    </title>
+    <meta
+      name="description"
+      content="{{ page.description | default: site.description | strip_html | truncatewords: 30 }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css' | relative_url }}"
+    />
+    <link
+      rel="icon"
+      href="{{ '/images/favicon.svg' | relative_url }}"
+      type="image/svg+xml"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="{{ '/images/apple-touch-icon-180x180.png' | relative_url }}"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="{{ '/' | relative_url }}" class="site-title">Hana Shim</a>
+        <div class="nav-links">
+          <a href="{{ '/cv/' | relative_url }}">CV</a>
+          <a href="{{ '/publications/' | relative_url }}">Publications</a>
+        </div>
+      </nav>
+    </header>
+    <main>{{ content }}</main>
+    <footer>
+      <p>Hana Shim &middot; {{ site.time | date: '%Y' }}</p>
+    </footer>
+  </body>
+</html>
