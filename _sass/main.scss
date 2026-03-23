@@ -1,7 +1,7 @@
 // Colors
 $text: #2c3e50;
 $text-light: #5a6a7a;
-$accent: #3d7a8a;
+$accent: #5a9e6f;
 $border: #e4e8eb;
 $bg: #ffffff;
 $black: #1a1a1a;
@@ -88,7 +88,7 @@ main {
 .sidebar {
   width: $sidebar-width;
   flex-shrink: 0;
-  padding-top: 0;
+  padding-top: 2.5rem;
   padding-right: 0.6rem;
 
   h3 {
@@ -250,7 +250,7 @@ strong {
   font-size: 1.35rem;
   font-weight: 700;
   color: $black;
-  margin-top: 2.25rem;
+  margin-top: 1.5rem;
   margin-bottom: 0.75rem;
   padding-bottom: 0.35rem;
   border-bottom: 1px solid $black;
