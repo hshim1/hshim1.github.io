@@ -20,6 +20,13 @@ title: Hana Shim
 <li>ChIP-seq</li>
 <li>Multi-omics</li>
 </ul>
+<h3>Interests</h3>
+<ul>
+<li>Multi-omics</li>
+<li>Pipeline development</li>
+<li>Immunology</li>
+<li>scRNA-seq</li>
+</ul>
 </aside>
 <div class="content-area" markdown="1">
 
